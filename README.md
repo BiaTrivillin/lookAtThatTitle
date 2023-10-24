@@ -5,5 +5,5 @@ Just a cool pure css title reveal animation
 ## Preview
 
 <div align="center">
-  <img with=10px src="look.gif">
+  <img width=500px src="look.gif">
 </div>
