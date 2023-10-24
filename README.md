@@ -1,6 +1,6 @@
 ## Look At That Title 👁 
 
-Just a cool title reveal pure css animation 
+Just a cool pure css title reveal animation 
 
 ## Preview
 
