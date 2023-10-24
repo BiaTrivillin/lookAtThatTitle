@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 40px
+}
+
+.title__one, .title__two{
+    overflow: hidden;
+}
+
+.title__one {
+    animation: appear 5s ease-in-out infinite;
+}
+
+
+.title__two span {
+    margin-left: -500px;
+    animation: slide 5s ease-in-out infinite;
+}
+
+/* ---------ANIMATIONS---------- */
+
+@keyframes appear {
+    0% {opacity: 0;}
+
+    20% {opacity: 1;}
+
+    80% {opacity: 1;}
+
+    100% {opacity: 1;}
+}
+
+
+@keyframes slide {
+    0% {margin-left: -800px;}
+
+    20% {margin-left: -800px;}
+
+    35% {margin-left: 0;}
+
+    100% {margin-left: 0;}
+}
